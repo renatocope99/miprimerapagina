@@ -4,7 +4,7 @@ body {
   margin: 0px 0px 0px 0px;
   font-family: "Comfortaa", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <300>;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -128,7 +128,15 @@ header div a i {
 }
 /*---------------main------------------------*/
 /****tamaño de fuentes****/
-
+.greeting {
+  color: blue;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 100;
+  display: flex;
+  position: absolute;
+  font-size: 300%;
+}
 h2 {
   font-size: 100%;
 }
